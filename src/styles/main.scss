@@ -1,0 +1,43 @@
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  background-color: white;
+}
+.modal {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  &__close {
+    display: flex;
+    position: absolute;
+    top: 120px;
+    right: 37px;
+    padding: 0.5em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+    box-sizing: border-box;
+  }
+}
+
+#open {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  transition: all 0.5s;
+  font-family: "Roboto";
+  z-index: 100;
+}
+
+#open:target {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  z-index: 100;
+}

@@ -1,0 +1,39 @@
+body {
+    height: 2000px;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    transition: all .5s ease;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover {
+    background-color: #111;
+    }
+    .activeTop {
+    background-color: #f09d08;
+    position: fixed;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    }
